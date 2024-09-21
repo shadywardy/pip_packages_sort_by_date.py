@@ -27,12 +27,14 @@ pip install pandas openpyxl
 
     ```python
     # Use the provided 'site-packages' directory
-    site_packages_dir = r'D:\Django Training\MailFlow\venv\Lib\site-packages'
-    ```
+    #site_packages_dir = r'D:\XXXXX\XXXXX\venv\Lib\site-packages'
+    
+    site_packages_dir = r'YOUR_PACKAGE_PATH'
+
 
 2. **Run the Script**: Execute the script in your Python environment. This will generate an Excel file with all the installed packages sorted by installation date.
 
-3. **Check the Output**: The Excel file will be saved at the specified location:
+3. **Check the Output**: The Excel file will be saved at same of script path:
     ```plaintext
     D:\Django Training\MailFlow\installed_packages_with_uninstall_values.xlsx
     ```
